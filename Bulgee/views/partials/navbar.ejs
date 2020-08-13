@@ -1,0 +1,21 @@
+<div class="topnav">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <div class="topnav" id="topnav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle"/>
+        <a class="noselect" href="https://discord.com/oauth2/authorize?client_id=670963766850224159&scope=bot&permissions=2146958847">Bot Invite</a>
+        <a class="noselect" href="https://discord.gg/9sDzhWD">Support Server</a>
+        <a class="noselect" href="http://patreon.com/bulgee">Patreon</a>
+    <div class="right">
+        <% if (user) { %>
+            <a class="noselect" href="#"><%- user.tag %></a>
+            <a class="noselect" style="float: right;" href="https://github.com/VojtaG/">GitHub</a>
+            <a class="noselect" style="float: right;" href="/dashboard">Guide</a>
+            <a class="noselect" class="logbtn" style="float: right;" href="/authorize/logout"><button>Logout</button></a>
+        <% } else { %>
+            <a class="noselect" class="logbtn" style="float: right;" href="/authorize"><button>Login</button></a>
+        <% } %>
+    </div>
+</div>
+</div>
