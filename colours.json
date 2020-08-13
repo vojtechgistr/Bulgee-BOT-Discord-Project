@@ -1,0 +1,18 @@
+{
+    "purple_dark": "0x6a006a",
+    "purple_medium": "0xa958a5",
+    "purple_light": "0xc481fb",
+    "orange": "0xffa500",
+    "gold": "0xdaa520",
+    "red_dark": "0x8e2430",
+    "red_light": "0xf94343",
+    "blue_dark": "0x3b5998",
+    "cyan": "0x5780cd",
+    "blue_light": "0xace9e7",
+    "aqua": "0x33a1ee",
+    "pink": "0xff9dbb",
+    "green_dark": "0x2ac075",
+    "green_light": "0xa1ee33",
+    "white": "0xf9f9f6",
+    "cream": "0xffdab9"
+  }
